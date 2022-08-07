@@ -2,17 +2,14 @@ package jankovicsandras.imagetracer;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.io.*;
+import java.util.*;
 
 import javax.imageio.ImageIO;
 
 public class ImageTracer {
 
-  public static String versionnumber = "1.1.3";
+  public static String versionnumber = "1.1.5";
   private static int[] rawdata;
 
   public ImageTracer() {}
