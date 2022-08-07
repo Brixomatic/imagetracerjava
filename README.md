@@ -94,7 +94,7 @@ java -jar ImageTracer.jar smiley.png outfilename output.svg ltres 1 qtres 1 path
 		<dependency>
 			<groupId>com.github.brixomatic</groupId>
 			<artifactId>imagetracerjava</artifactId>
-			<version>2220689</version> <!-- version 1.1.5 -->
+			<version>1.1.5</version> <!-- version 1.1.5 -->
 		</dependency>
 	</dependencies>
 	```
@@ -113,7 +113,7 @@ See also: [https://jitpack.io](https://jitpack.io)
 	  +jankovicsandras.imagetracer
 	    +imagetracer
 	     +ImageTracer
-		     +1.1.4
+		     +1.1.5
 		      _remote.repositories
 		      ImageTracer-1.1.4.jar
 		      ImageTracer-1.1.4.pom
@@ -146,7 +146,7 @@ See also: [https://jitpack.io](https://jitpack.io)
 		<dependency>
 			<groupId>jankovicsandras.imagetracer</groupId>
 			<artifactId>ImageTracer</artifactId>
-			<version>1.1.4</version>
+			<version>1.1.5</version>
 		</dependency>
 	</dependencies>
 	```
