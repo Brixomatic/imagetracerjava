@@ -9,7 +9,7 @@
 	<description>Simple image tracer</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jdk.version>8</jdk.version>
+		<jdk.version>17</jdk.version>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<junit.version>4.13-beta-3</junit.version>
