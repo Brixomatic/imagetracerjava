@@ -1,19 +1,11 @@
 package jankovicsandras.imagetracer;
 
 import java.awt.*;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Line2D;
-import java.awt.geom.Path2D;
-import java.awt.geom.Rectangle2D;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.awt.geom.*;
+import java.io.*;
+import java.util.*;
 
-import de.erichseifert.vectorgraphics2d.Document;
-import de.erichseifert.vectorgraphics2d.VectorGraphics2D;
+import de.erichseifert.vectorgraphics2d.*;
 import de.erichseifert.vectorgraphics2d.intermediate.CommandSequence;
 import de.erichseifert.vectorgraphics2d.pdf.PDFProcessor;
 import de.erichseifert.vectorgraphics2d.util.PageSize;
@@ -40,8 +32,8 @@ public class PDFUtils {
                 // Creating new list if required
                 if(!zindex.containsKey(label)){ zindex.put(label,new Integer[2]); }
                 // Adding layer and path number to list
-                zindex.get(label)[0] = new Integer(k);
-                zindex.get(label)[1] = new Integer(pcnt);
+                zindex.get(label)[0] = k;
+                zindex.get(label)[1] = pcnt;
             }// End of path loop
 
         }// End of layer loop
